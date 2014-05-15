@@ -1,0 +1,27 @@
+#+STARTUP: indent
+
+* Idea
+
+** Clone of alien for the spectrum
+** Slow, strategic game to play with sound
+** Medium sized starship, and an unkown enemy wandering
+** You basically can't kill the enemy, just stall it
+** Have to make a plan to trhow it out or escape from the ship
+** Play with multiple crew members, with some items
+** The crew will not always obey your orders, based on morale and stuff
+** Some crew will have strong personalities and disobey you
+** You'll have a rogue member, conspiring to boicot you
+** But he/she will play along until a critical event comes around
+** Then he/she will fuck you plenty
+
+* Plan/Roadmap
+
+** Draw a window with the basic ui
+** Sketch the basic game loop and code structure
+
+* Technical challenges
+
+** Just the basic game structure is challenging enough..
+** Same with the racket UI drawing/updating
+** But the emphasis here is to use only persistent data structures
+** And keep the code as purely functional as possible
