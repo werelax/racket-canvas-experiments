@@ -1,0 +1,51 @@
+#+STARTUP: indent
+
+* A game in the line of Choice of Games adventures
+
+** Much more easier to tackle
+** Better lisp practice
+** I really liked the Choice of Games titles!
+
+* Mechanics
+
+** DSL for history definition/runtime
+** Nice UI for the text fragments and the stats
+** Scrolling text
+** Buttons for different choices
+** Save/restore mechanics
+** Try to do it in a stylish, nice little window
+** Music? Animations (UI animations, I mean)?
+* Actual, Concrete plan
+** UI experiments
+*** Elements needed:
+**** Scrollable text
+**** Stats (bars)
+**** Buttons for choices
+**** Illustrations
+*** Implementation:
+**** Text
+- Is the most important element and I would like to do it really beautiful
+- Easy to read, nice fonts, clear colors
+- With linked boxes, like Sorcery!
+- Scrollable (which is probably a pain...)
+- Some crude styles, like colors and bold
+**** Stats
+- Basically they are only bars with labels
+- Nice to have: highlight the gaining/losses of the decission
+**** Buttons
+- Not the most important thing.
+- Basic, plain buttons is enough
+- With key shortcuts
+**** Illustrations
+- Some paragraphs can have illustrations
+- Just static images, show somewher fixed
+- Or maybe just as another box in the linked text fragments
+**** Sounds
+- Not now...
+*** Steps
+**** Canvas FPS test, with just full rect refresh (no conses, no other code)
+***** TODO Try to achieve a solid 60FPS with minimal CPU consumption
+***** Or find another way to do it (SDL?)
+**** Draw a basic window layout with just color boxes
+**** Think about the text movement thing
+** DSL experiments
